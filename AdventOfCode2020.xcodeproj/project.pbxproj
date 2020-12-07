@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231CC9F42579FB60001A3258 /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CC9F32579FB60001A3258 /* Day4.swift */; };
+		231CC9F7257E0566001A3258 /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CC9F6257E0566001A3258 /* Day5.swift */; };
+		231CC9FA257E0F12001A3258 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CC9F9257E0F12001A3258 /* Day6.swift */; };
+		231CC9FD257E1070001A3258 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CC9FC257E1070001A3258 /* Utils.swift */; };
+		231CCA01257E142D001A3258 /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CCA00257E142D001A3258 /* Day7.swift */; };
 		23C84B0B2577444B00FC16F7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C84B0A2577444B00FC16F7 /* main.swift */; };
+		23C84B142577445900FC16F7 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C84B132577445900FC16F7 /* Day1.swift */; };
+		23C84B172578938D00FC16F7 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C84B162578938D00FC16F7 /* Day2.swift */; };
+		23C84B1A2578A9F200FC16F7 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C84B192578A9F200FC16F7 /* Day3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		231CC9F32579FB60001A3258 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
+		231CC9F6257E0566001A3258 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
+		231CC9F9257E0F12001A3258 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
+		231CC9FC257E1070001A3258 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		231CCA00257E142D001A3258 /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
 		23C84B072577444B00FC16F7 /* AdventOfCode2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2020; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C84B0A2577444B00FC16F7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		23C84B132577445900FC16F7 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		23C84B162578938D00FC16F7 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		23C84B192578A9F200FC16F7 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				23C84B0A2577444B00FC16F7 /* main.swift */,
+				231CC9FC257E1070001A3258 /* Utils.swift */,
+				23C84B122577445100FC16F7 /* Days */,
 			);
 			path = AdventOfCode2020;
+			sourceTree = "<group>";
+		};
+		23C84B122577445100FC16F7 /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				23C84B132577445900FC16F7 /* Day1.swift */,
+				23C84B162578938D00FC16F7 /* Day2.swift */,
+				23C84B192578A9F200FC16F7 /* Day3.swift */,
+				231CC9F32579FB60001A3258 /* Day4.swift */,
+				231CC9F6257E0566001A3258 /* Day5.swift */,
+				231CC9F9257E0F12001A3258 /* Day6.swift */,
+				231CCA00257E142D001A3258 /* Day7.swift */,
+			);
+			path = Days;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +151,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C84B142577445900FC16F7 /* Day1.swift in Sources */,
+				231CC9F42579FB60001A3258 /* Day4.swift in Sources */,
+				23C84B172578938D00FC16F7 /* Day2.swift in Sources */,
+				23C84B1A2578A9F200FC16F7 /* Day3.swift in Sources */,
+				231CC9F7257E0566001A3258 /* Day5.swift in Sources */,
+				231CC9FA257E0F12001A3258 /* Day6.swift in Sources */,
 				23C84B0B2577444B00FC16F7 /* main.swift in Sources */,
+				231CCA01257E142D001A3258 /* Day7.swift in Sources */,
+				231CC9FD257E1070001A3258 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

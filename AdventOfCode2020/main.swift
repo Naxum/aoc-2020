@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+Day7.solvePart1()
+Day7.solvePart2()
