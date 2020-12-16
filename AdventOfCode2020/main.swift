@@ -7,5 +7,6 @@
 
 import Foundation
 
-Day7.solvePart1()
-Day7.solvePart2()
+Day10.solvePart1()
+print("----")
+Day10.solvePart2()
